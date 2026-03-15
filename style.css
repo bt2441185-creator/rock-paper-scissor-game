@@ -1,0 +1,77 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color: #006400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#container{
+  background-color: #9ef01a;
+  height: 600px;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+    width: 90vw;      
+  max-width: 420px;  
+  min-height: 80vh; 
+
+}
+#second-container{
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  padding-left:20px;
+  padding-top: 20px;
+}
+.rock , .scissor , .paper{
+  height: 100px;;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+    width: 22vw;     
+  max-width: 100px;
+  aspect-ratio: 1/1;
+}
+.rock:hover , .paper:hover , .scissor:hover{
+  transform : scale(0.9) ;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  
+}
+.rock:active , .paper:active , .scissor:active{
+transform: scale(1.5);
+}
+.move{
+  font-size:40px;
+}
+.result{
+  font-size: 50px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+}
+.con{
+    font-size: 30px;
+  width: 300px;
+  text-align: center;
+  background-color:blue ;
+text-decoration: underline ;
+color:yellow;
+;
+}
+.third-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 80px;
+  padding-top: 20px;;
+}
+.fourth-container{
+    display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 50px;
+  padding-top:0px;
+}
