@@ -35,12 +35,12 @@ body{
   max-width: 100px;
   aspect-ratio: 1/1;
 }
-.rock:hover , .paper:hover , .scissor:hover{
+.rock:hover , .paper:hover , .scissor:hover ,button:hover{
   transform : scale(0.9) ;
   box-shadow: 0 15px 25px rgba(0,0,0,0.5);
   
 }
-.rock:active , .paper:active , .scissor:active{
+.rock:active , .paper:active , .scissor:active , button:active{
 transform: scale(1.5);
 }
 .move{
@@ -74,4 +74,8 @@ color:yellow;
   width: 100%;
   font-size: 50px;
   padding-top:0px;
+}
+button{
+background-color: black;
+color:#fff ;
 }
