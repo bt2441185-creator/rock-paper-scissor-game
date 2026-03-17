@@ -15,7 +15,7 @@ let  choice=["rock", "paper", "scissor"]
 computerchoice=choice[Math.floor(Math.random()*3)];
 if(userchoice === computerchoice){
   result.innerText=`draw `;
-  con.innerText=` computer choose ${computerchoice}`
+  con.innerText=` Both choose ${computerchoice}`
 }
 else if (
   (userchoice === "rock" && computerchoice ==="scissor" ) ||
